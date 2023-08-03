@@ -1,0 +1,573 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>diamond 2.1.6</BlastOutput_version>
+  <BlastOutput_reference>Benjamin Buchfink, Xie Chao, and Daniel Huson (2015), &quot;Fast and sensitive protein alignment using DIAMOND&quot;, Nature Methods 12:59-60.</BlastOutput_reference>
+  <BlastOutput_db>./blast/diamond_db/chrE</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>tr|Q5NUZ8|Q5NUZ8_RALME ChrE, involved in the processing of chromium-glutathione-complexes OS=Ralstonia metallidurans (strain CH34 / ATCC 43123 / DSM 2839) GN=chrE PE=4 SV=1</BlastOutput_query-def>
+  <BlastOutput_query-len>113</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>blosum62</Parameters_matrix>
+      <Parameters_expect>0.001</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>tr|Q5NUZ8|Q5NUZ8_RALME ChrE, involved in the processing of chromium-glutathione-complexes OS=Ralstonia metallidurans (strain CH34 / ATCC 43123 / DSM 2839) GN=chrE PE=4 SV=1</Iteration_query-def>
+  <Iteration_query-len>113</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>tr|Q5NUZ8|Q5NUZ8_RALME</Hit_id>
+  <Hit_def>ChrE, involved in the processing of chromium-glutathione-complexes OS=Ralstonia metallidurans (strain CH34 / ATCC 43123 / DSM 2839) GN=chrE PE=4 SV=1</Hit_def>
+  <Hit_accession>Q5NUZ8</Hit_accession>
+  <Hit_len>113</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>238</Hsp_bit-score>
+      <Hsp_score>607</Hsp_score>
+      <Hsp_evalue>3.13e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+         <Hsp_qseq>MPNATSSLELAAALHGLNAPQLIDVRRKPAFDASEQMIAGAAWRNPDELGNWIATLDANRPVTVYCVHGHQVSQDCAALLEAVGFDATYLVGGFEDWIAGNHPTIRKPLRIEP</Hsp_qseq>
+         <Hsp_hseq>MPNATSSLELAAALHGLNAPQLIDVRRKPAFDASEQMIAGAAWRNPDELGNWIATLDANRPVTVYCVHGHQVSQDCAALLEAVGFDATYLVGGFEDWIAGNHPTIRKPLRIEP</Hsp_hseq>
+      <Hsp_midline>MPNATSSLELAAALHGLNAPQLIDVRRKPAFDASEQMIAGAAWRNPDELGNWIATLDANRPVTVYCVHGHQVSQDCAALLEAVGFDATYLVGGFEDWIAGNHPTIRKPLRIEP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>tr|A0A0Q8Q6L5|A0A0Q8Q6L5_9BURK</Hit_id>
+  <Hit_def>Rhodanese domain-containing protein OS=Noviherbaspirillum sp. Root189 OX=1736487 GN=ASE07_25175 PE=4 SV=1</Hit_def>
+  <Hit_accession>A0A0Q8Q6L5</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>4.39e-37</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+         <Hsp_qseq>LIDVRRKPAFDASEQMIAGAAWRNPDELGNWIATLDANRPVTVYCVHGHQVSQDCAALLEAVGFDATYLVGGFEDWIAGNHPTIRKP</Hsp_qseq>
+         <Hsp_hseq>IVDVRRKPVFDASSSVIAGAVWCNPEEINTWQSTLDKQREVIVYCVHGHQVSQGCADALVQAGFKARYLEGGFEHWVEEGKPVRAKP</Hsp_hseq>
+      <Hsp_midline>++DVRRKP FDAS  +IAGA W NP+E+  W +TLD  R V VYCVHGHQVSQ CA  L   GF A YL GGFE W+    P   KP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>tr|A4JEF3|A4JEF3_BURVG</Hit_id>
+  <Hit_def>Rhodanese domain protein OS=Burkholderia vietnamiensis (strain G4 / LMG 22486) OX=269482 GN=Bcep1808_1650 PE=4 SV=1</Hit_def>
+  <Hit_accession>A4JEF3</Hit_accession>
+  <Hit_len>115</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>7.42e-35</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+         <Hsp_qseq>ATSSLELAAALHGLNAPQLIDVRRKPAFDASEQMIAGAAWRNPDELGNWIATLDANRPVTVYCVHGHQVSQDCAALLEAVGFDATYLVGGFEDWIAGNHP</Hsp_qseq>
+         <Hsp_hseq>AVSSRDLLAALESNQPPQIVDVRRKSAFNESGKIIIGASWYAPEDVGNWMGDLEQSRTVVVYCAHGQERSQMCAATLAQLGFAASYLEGGFAQWLADGLP</Hsp_hseq>
+      <Hsp_midline>A SS +L AAL     PQ++DVRRK AF+ S ++I GA+W  P+++GNW+  L+ +R V VYC HG + SQ CAA L  +GF A+YL GGF  W+A   P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>tr|A8TNJ9|A8TNJ9_9PROT</Hit_id>
+  <Hit_def>Superoxide dismutase SodM-like protein OS=alpha proteobacterium BAL199 OX=331869 GN=BAL199_12036 PE=4 SV=1</Hit_def>
+  <Hit_accession>A8TNJ9</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.2</Hsp_bit-score>
+      <Hsp_score>243</Hsp_score>
+      <Hsp_evalue>4.65e-29</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+         <Hsp_qseq>SSLELAAALHGLNAPQLIDVRRKPAFDASEQMIAGAAWRNPDELGNWIATLDANRPVTVYCVHGHQVSQDCAALLEAVGFDATYLVGGFEDWIAGNHPTIRK</Hsp_qseq>
+         <Hsp_hseq>TSEDLLPLIGGANAPVIVDVRRRPVFDADDRVLPTAIWRDHLAVDAWIGDLPAGVPVVAYCVYGHQVGQSAASRLRLAGVDARYLAGGIESWKAAGGPVVAK</Hsp_hseq>
+      <Hsp_midline>+S +L   + G NAP ++DVRR+P FDA ++++  A WR+   +  WI  L A  PV  YCV+GHQV Q  A+ L   G DA YL GG E W A   P + K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>tr|A0A1Y2QYZ4|A0A1Y2QYZ4_9BURK</Hit_id>
+  <Hit_def>Rhodanese domain-containing protein OS=Hydrogenophaga sp. IBVHS1 OX=1985169 GN=CAP37_15620 PE=4 SV=1</Hit_def>
+  <Hit_accession>A0A1Y2QYZ4</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>1.45e-26</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+         <Hsp_qseq>LIDVRRKPAFDASEQMIAGAAWRNPDELGNWIATLDANRPVTVYCVHGHQVSQDCAALLEAVGFDATYLVGGFEDWIAGNHPTIRK</Hsp_qseq>
+         <Hsp_hseq>VLDVRRTGAFEQATTQLPGATWRDPAQVTQWAAFVPRDRPVTVYCVHGHEVSRNTAQQLRGLGVSARYLRGGIEGWSQAGMPVVDK</Hsp_hseq>
+      <Hsp_midline>++DVRR  AF+ +   + GA WR+P ++  W A +  +RPVTVYCVHGH+VS++ A  L  +G  A YL GG E W     P + K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>tr|A0A3A3FQL0|A0A3A3FQL0_9BURK</Hit_id>
+  <Hit_def>Sulfurtransferase OS=Noviherbaspirillum saxi OX=2320863 GN=D3871_21885 PE=4 SV=1</Hit_def>
+  <Hit_accession>A0A3A3FQL0</Hit_accession>
+  <Hit_len>122</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.7</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>3.92e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+         <Hsp_qseq>MPNATSSLELAAALHGLNAPQLIDVRRKPAFDASEQMIAGAAWRNPDELGNWIATLDANRPVTVYCVHGHQVSQDCAALLEAVGFDATYLVGGFEDWIAGNHP</Hsp_qseq>
+         <Hsp_hseq>MATPITTVELAGRTSSGIATQIVDVRRKVVFDAAAEVIRDSCRRDPDEVFAWKHDLNRTIPIAVYCVYGHQVSQDIADALTISGFNVRYLEGGIAKWASEGRP</Hsp_hseq>
+      <Hsp_midline>M    +++ELA       A Q++DVRRK  FDA+ ++I  +  R+PDE+  W   L+   P+ VYCV+GHQVSQD A  L   GF+  YL GG   W +   P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>tr|A0A6N4T7S3|A0A6N4T7S3_9BURK</Hit_id>
+  <Hit_def>Rhodanese domain-containing protein OS=Undibacterium sp. KW1 OX=2058624 GN=UNDKW_3710 PE=4 SV=1</Hit_def>
+  <Hit_accession>A0A6N4T7S3</Hit_accession>
+  <Hit_len>121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>1.08e-25</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+         <Hsp_qseq>SSLELAAALHGLNAPQLIDVRRKPAFDASEQMIAGAAWRNPDELGNWIATLDANRPVTVYCVHGHQVSQDCAALLEAVGFDATYLVGGFE</Hsp_qseq>
+         <Hsp_hseq>SVAEFMRELSSANPPAVIDVRRRPAFEADSLQVVGAVWLDPEQVTNWAPALTQQQNVVVYCIKGHEVGVNCASALNEAGIAARYLEGGLE</Hsp_hseq>
+      <Hsp_midline>S  E    L   N P +IDVRR+PAF+A    + GA W +P+++ NW   L   + V VYC+ GH+V  +CA+ L   G  A YL GG E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>tr|S6AGF7|S6AGF7_PSERE</Hit_id>
+  <Hit_def>Rhodanese domain-containing protein OS=Pseudomonas resinovorans NBRC 106553 OX=1245471 GN=PCA10_13530 PE=4 SV=1</Hit_def>
+  <Hit_accession>S6AGF7</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.0</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>2.92e-25</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+         <Hsp_qseq>LIDVRRKPAFDASEQMIAGAAWRNPDELGNWIATLDANRPVTVYCVHGHQVSQDCAALLEAVGFDATYLVGGFEDWIAGNHPT</Hsp_qseq>
+         <Hsp_hseq>LLDVRREAVRAADAAVIADAHWLDPESVLRWKDSVPRDRPVVLYCAHGHEISQGIAATLEAMGLDARYLVDGFSGWRDAGRPT</Hsp_hseq>
+      <Hsp_midline>L+DVRR+    A   +IA A W +P+ +  W  ++  +RPV +YC HGH++SQ  AA LEA+G DA YLV GF  W     PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>tr|A0A6H9YEB2|A0A6H9YEB2_9PROT</Hit_id>
+  <Hit_def>Rhodanese OS=Betaproteobacteria bacterium SCN1 OX=2651627 GN=F8A86_06505 PE=4 SV=1</Hit_def>
+  <Hit_accession>A0A6H9YEB2</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.9</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>7.60e-24</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+         <Hsp_qseq>LIDVRRKPAFDASEQMIAGAAWRNPDELGNWIATLDANRPVTVYCVHGHQVSQDCAALLEAVGFDATYLVGGFEDW-IAGNHPTIRKPLR</Hsp_qseq>
+         <Hsp_hseq>VFDVRREADFNASDEAIPGALWKNPDRIDAWIGAVPLTMELIVYCVHGGAVSLQTVDRLRAIGAKARYIEGGLEAWKAAGGRPARKYPIR</Hsp_hseq>
+      <Hsp_midline>+ DVRR+  F+AS++ I GA W+NPD +  WI  +     + VYCVHG  VS      L A+G  A Y+ GG E W  AG  P  + P+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>tr|A0A254NCY3|A0A254NCY3_9BURK</Hit_id>
+  <Hit_def>Superoxide dismutase OS=Pelomonas puraquae OX=431059 GN=CDO81_17180 PE=4 SV=1</Hit_def>
+  <Hit_accession>A0A254NCY3</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>7.85e-23</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>215</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+         <Hsp_qseq>QLIDVRRKPAFDASEQMIAGAAWRNPDELGNWIATLDANRPVTVYCVHGHQVSQDCAALLEAVGFDATYLVGGFE</Hsp_qseq>
+         <Hsp_hseq>QLIDVRRTAGYAQAPDRIAGAIRRDPVQLANWSREIDTSKPVLVYCVHGHEVSQSVALALRAHGLDARFVAGGIE</Hsp_hseq>
+      <Hsp_midline>QLIDVRR   +  +   IAGA  R+P +L NW   +D ++PV VYCVHGH+VSQ  A  L A G DA ++ GG E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>tr|F4G775|F4G775_ALIDK</Hit_id>
+  <Hit_def>Manganese/iron superoxide dismutase OS=Alicycliphilus denitrificans (strain DSM 14773 / CIP 107495 / K601) OX=596154 GN=Alide2_1942 PE=4 SV=1</Hit_def>
+  <Hit_accession>F4G775</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>7.85e-23</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>215</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+         <Hsp_qseq>QLIDVRRKPAFDASEQMIAGAAWRNPDELGNWIATLDANRPVTVYCVHGHQVSQDCAALLEAVGFDATYLVGGFE</Hsp_qseq>
+         <Hsp_hseq>QLIDVRRTAGYAQAPDRIAGAIRRDPVQLANWSREIDTSKPVLVYCVHGHEVSQSVALALRAHGLDARFVAGGIE</Hsp_hseq>
+      <Hsp_midline>QLIDVRR   +  +   IAGA  R+P +L NW   +D ++PV VYCVHGH+VSQ  A  L A G DA ++ GG E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>tr|A0A1D9GZS2|A0A1D9GZS2_9BURK</Hit_id>
+  <Hit_def>Superoxide dismutase OS=Cupriavidus sp. USMAA2-4 OX=876364 GN=BKK79_15715 PE=4 SV=1</Hit_def>
+  <Hit_accession>A0A1D9GZS2</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>7.85e-23</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>215</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+         <Hsp_qseq>QLIDVRRKPAFDASEQMIAGAAWRNPDELGNWIATLDANRPVTVYCVHGHQVSQDCAALLEAVGFDATYLVGGFE</Hsp_qseq>
+         <Hsp_hseq>QLIDVRRTAGYAQAPDRIAGAIRRDPVQLANWSREIDTSKPVLVYCVHGHEVSQSVALALRAHGLDARFVAGGIE</Hsp_hseq>
+      <Hsp_midline>QLIDVRR   +  +   IAGA  R+P +L NW   +D ++PV VYCVHGH+VSQ  A  L A G DA ++ GG E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>tr|C5T7I6|C5T7I6_ACIDE</Hit_id>
+  <Hit_def>Manganese and iron superoxide dismutase OS=Acidovorax delafieldii 2AN OX=573060 GN=AcdelDRAFT_2866 PE=4 SV=1</Hit_def>
+  <Hit_accession>C5T7I6</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>7.85e-23</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>215</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+         <Hsp_qseq>QLIDVRRKPAFDASEQMIAGAAWRNPDELGNWIATLDANRPVTVYCVHGHQVSQDCAALLEAVGFDATYLVGGFE</Hsp_qseq>
+         <Hsp_hseq>QLIDVRRTAGYAQAPDRIAGAIRRDPVQLANWSREIDTSKPVLVYCVHGHEVSQSVALALRAHGLDARFVAGGIE</Hsp_hseq>
+      <Hsp_midline>QLIDVRR   +  +   IAGA  R+P +L NW   +D ++PV VYCVHGH+VSQ  A  L A G DA ++ GG E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>tr|Q13FS4|Q13FS4_PARXL</Hit_id>
+  <Hit_def>Putative superoxide dismutase OS=Paraburkholderia xenovorans (strain LB400) OX=266265 GN=Bxe_C1205 PE=4 SV=1</Hit_def>
+  <Hit_accession>Q13FS4</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>7.85e-23</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>215</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+         <Hsp_qseq>QLIDVRRKPAFDASEQMIAGAAWRNPDELGNWIATLDANRPVTVYCVHGHQVSQDCAALLEAVGFDATYLVGGFE</Hsp_qseq>
+         <Hsp_hseq>QLIDVRRTAGYAQAPDRIAGAIRRDPVQLANWSREIDTSKPVLVYCVHGHEVSQSVALALRAHGLDARFVAGGIE</Hsp_hseq>
+      <Hsp_midline>QLIDVRR   +  +   IAGA  R+P +L NW   +D ++PV VYCVHGH+VSQ  A  L A G DA ++ GG E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>tr|Q12AM3|Q12AM3_POLSJ</Hit_id>
+  <Hit_def>Manganese and iron superoxide dismutase OS=Polaromonas sp. (strain JS666 / ATCC BAA-500) OX=296591 GN=Bpro_2502 PE=4 SV=1</Hit_def>
+  <Hit_accession>Q12AM3</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7</Hsp_bit-score>
+      <Hsp_score>195</Hsp_score>
+      <Hsp_evalue>5.87e-22</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>216</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+         <Hsp_qseq>QLIDVRRKPAFDASEQMIAGAAWRNPDELGNWIATLDANRPVTVYCVHGHQVSQDCAALLEAVGFDATYLVGGFEDWIAGNHPTIRK</Hsp_qseq>
+         <Hsp_hseq>QLIDVRRAETFADANDMITGARYADPADVSGWVGTLDPERPVVVYCLHGLDIGRSTALSLRARGVSAQFMEGGIEAWRAVQLPLVPK</Hsp_hseq>
+      <Hsp_midline>QLIDVRR   F  +  MI GA + +P ++  W+ TLD  RPV VYC+HG  + +  A  L A G  A ++ GG E W A   P + K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>tr|A0A127JZK2|A0A127JZK2_9BURK</Hit_id>
+  <Hit_def>Rhodanese domain-containing protein OS=Ramlibacter tataouinensis OX=94132 GN=UC35_10180 PE=4 SV=1</Hit_def>
+  <Hit_accession>A0A127JZK2</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.0</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>8.16e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+         <Hsp_qseq>MPNATSSLELAAALHGLNAPQLIDVRRKPAFDASEQMIAGAAWRNPDELGNWIATLDANRPVTVYCVHGHQVSQDCAALLEAVGFDATYLVGGFEDWIAGNHPTIRK</Hsp_qseq>
+         <Hsp_hseq>LPSSISPQDFIDRLGTPEAPWVLDVRRDERFAESDRMAPRAQRCAPQDLAR-LAREHAAREVVVYCVHGHEVGQDAAAQLNAAGWRARWLEGGFEGLVAAGLPTLRK</Hsp_hseq>
+      <Hsp_midline>+P++ S  +    L    AP ++DVRR   F  S++M   A    P +L   +A   A R V VYCVHGH+V QD AA L A G+ A +L GGFE  +A   PT+RK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>tr|A0A1B3LUX8|A0A1B3LUX8_9BURK</Hit_id>
+  <Hit_def>Rhodanese-like domain protein OS=Hydrogenophaga sp. RAC07 OX=1842537 GN=BSY239_788 PE=4 SV=1</Hit_def>
+  <Hit_accession>A0A1B3LUX8</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.6</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>1.48e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+         <Hsp_qseq>MPNATSSLELAAALHGLNAPQLIDVRRKPAFDASEQMIAGAAWRNPDELGNWIATLDANRPVTVYCVHGHQVSQDCAALLEAVGFDATYLVGGFEDWIAGNHPTIRKP</Hsp_qseq>
+         <Hsp_hseq>IPLGISPRELASRIGAPGAPLLLDVRRSARFAESSHLLATAQWCAPDAVSAWARSHPPGE-VVVYCVHGHDVSQQAAASLRQAGWSARFLAGGFE----GGEPGVDTP</Hsp_hseq>
+      <Hsp_midline>+P   S  ELA+ +    AP L+DVRR   F  S  ++A A W  PD +  W  +      V VYCVHGH VSQ  AA L   G+ A +L GGFE    G  P +  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>tr|A0A257CTV0|A0A257CTV0_9BURK</Hit_id>
+  <Hit_def>Rhodanese domain-containing protein OS=Burkholderiales bacterium PBB3 OX=2015565 GN=CFE43_08410 PE=4 SV=1</Hit_def>
+  <Hit_accession>A0A257CTV0</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>3.71e-18</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+         <Hsp_qseq>AALHGLNAPQLIDVRRKPAFDASEQMIAGAAWRNPDELGNWIATLDANRPVTVYCVHGHQVSQDCAALLEAVGFDATYLVGGFE</Hsp_qseq>
+         <Hsp_hseq>AGLGRASAPLVLDVRRQARFDESPRLVAGALRCAPEEVVR-LATTHPPAEAVVYCVYGHNVSQDAVAELRAAGWPARVLVGGIE</Hsp_hseq>
+      <Hsp_midline>A L   +AP ++DVRR+  FD S +++AGA    P+E+   +AT        VYCV+GH VSQD  A L A G+ A  LVGG E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>tr|A0A1A9EVW5|A0A1A9EVW5_9GAMM</Hit_id>
+  <Hit_def>Thiosulfate sulfurtransferase GlpE OS=Marinobacterium aestuarii OX=1821621 GN=glpE PE=3 SV=1</Hit_def>
+  <Hit_accession>A0A1A9EVW5</Hit_accession>
+  <Hit_len>105</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.7</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>7.84e-14</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+         <Hsp_qseq>LIDVRRKPAFDASEQMIAGAAWRNPDELGNWIATLDANRPVTVYCVHGHQVSQDCAALLEAVGFDATY-LVGGFEDWIAGNHP</Hsp_qseq>
+         <Hsp_hseq>IVDIRDSDSF--TQNHITNAVQLNNENLQDFIRDSDMDKPLIVCCYHGFS-SQNAAAQLAHVGFDAVYSLNGGFEAWQA-EHP</Hsp_hseq>
+      <Hsp_midline>++D+R   +F  ++  I  A   N + L ++I   D ++P+ V C HG   SQ+ AA L  VGFDA Y L GGFE W A  HP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>76</Statistics_db-num>
+      <Statistics_db-len>16600</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041000</Statistics_kappa>
+      <Statistics_lambda>0.267000</Statistics_lambda>
+      <Statistics_entropy>0</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

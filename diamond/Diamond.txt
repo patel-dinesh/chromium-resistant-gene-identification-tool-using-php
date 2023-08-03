@@ -1,0 +1,13 @@
+# downloading the tool
+wget http://github.com/bbuchfink/diamond/releases/download/v2.1.6/diamond-linux64.tar.gz
+tar xzf diamond-linux64.tar.gz
+# creating a diamond-formatted database file
+./diamond makedb --in reference.fasta -d reference
+# running a search in blastp mode
+./diamond blastp -d reference -q queries.fasta -o matches.tsv
+# running a search in blastx mode
+./diamond blastx -d reference -q reads.fasta -o matches.tsv
+# downloading and using a BLAST database
+update_blastdb.pl --decompress --blastdb_version 5 swissprot
+./diamond prepdb -d swissprot
+./diamond blastp -d swissprot -q queries.fasta -o matches.tsv

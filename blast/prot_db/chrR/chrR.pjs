@@ -1,0 +1,24 @@
+{
+  "version": "1.2",
+  "dbname": "chrR",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "Datacoll/chrR.txt",
+  "number-of-letters": 46719,
+  "number-of-sequences": 249,
+  "last-updated": "2023-06-08T13:14:00",
+  "number-of-volumes": 1,
+  "bytes-total": 1104315,
+  "bytes-to-cache": 49061,
+  "files": [
+    "chrR.pdb",
+    "chrR.phr",
+    "chrR.pin",
+    "chrR.pog",
+    "chrR.pos",
+    "chrR.pot",
+    "chrR.psq",
+    "chrR.ptf",
+    "chrR.pto"
+  ]
+}

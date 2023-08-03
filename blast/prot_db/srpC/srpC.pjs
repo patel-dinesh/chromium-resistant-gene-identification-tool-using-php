@@ -1,0 +1,24 @@
+{
+  "version": "1.2",
+  "dbname": "srpC",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "Datacoll/srpC.txt",
+  "number-of-letters": 62115,
+  "number-of-sequences": 159,
+  "last-updated": "2023-06-08T13:16:00",
+  "number-of-volumes": 1,
+  "bytes-total": 1098973,
+  "bytes-to-cache": 63647,
+  "files": [
+    "srpC.pdb",
+    "srpC.phr",
+    "srpC.pin",
+    "srpC.pog",
+    "srpC.pos",
+    "srpC.pot",
+    "srpC.psq",
+    "srpC.ptf",
+    "srpC.pto"
+  ]
+}

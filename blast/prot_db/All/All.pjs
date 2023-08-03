@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "All",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "DataColl/All.txt",
+  "number-of-letters": 381240,
+  "number-of-sequences": 1413,
+  "last-updated": "2023-06-18T19:45:00",
+  "number-of-volumes": 1,
+  "bytes-total": 1680882,
+  "bytes-to-cache": 394050,
+  "files": [
+    "All.pdb",
+    "All.phr",
+    "All.pin",
+    "All.pot",
+    "All.psq",
+    "All.ptf",
+    "All.pto"
+  ]
+}

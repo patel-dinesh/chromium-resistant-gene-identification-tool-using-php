@@ -1,0 +1,24 @@
+{
+  "version": "1.2",
+  "dbname": "chrB1",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "Datacoll/chrB1.txt",
+  "number-of-letters": 58742,
+  "number-of-sequences": 187,
+  "last-updated": "2023-06-08T13:02:00",
+  "number-of-volumes": 1,
+  "bytes-total": 1102394,
+  "bytes-to-cache": 60526,
+  "files": [
+    "chrB1.pdb",
+    "chrB1.phr",
+    "chrB1.pin",
+    "chrB1.pog",
+    "chrB1.pos",
+    "chrB1.pot",
+    "chrB1.psq",
+    "chrB1.ptf",
+    "chrB1.pto"
+  ]
+}

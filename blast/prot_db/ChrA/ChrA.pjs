@@ -1,0 +1,24 @@
+{
+  "version": "1.2",
+  "dbname": "ChrA",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "Datacoll/ChrA.txt",
+  "number-of-letters": 113228,
+  "number-of-sequences": 250,
+  "last-updated": "2023-06-08T12:56:00",
+  "number-of-volumes": 1,
+  "bytes-total": 1170079,
+  "bytes-to-cache": 115579,
+  "files": [
+    "ChrA.pdb",
+    "ChrA.phr",
+    "ChrA.pin",
+    "ChrA.pog",
+    "ChrA.pos",
+    "ChrA.pot",
+    "ChrA.psq",
+    "ChrA.ptf",
+    "ChrA.pto"
+  ]
+}

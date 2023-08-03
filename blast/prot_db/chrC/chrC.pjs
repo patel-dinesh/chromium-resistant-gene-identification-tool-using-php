@@ -1,0 +1,24 @@
+{
+  "version": "1.2",
+  "dbname": "chrC",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "Datacoll/chrC.txt",
+  "number-of-letters": 38774,
+  "number-of-sequences": 160,
+  "last-updated": "2023-06-08T13:03:00",
+  "number-of-volumes": 1,
+  "bytes-total": 1075382,
+  "bytes-to-cache": 40315,
+  "files": [
+    "chrC.pdb",
+    "chrC.phr",
+    "chrC.pin",
+    "chrC.pog",
+    "chrC.pos",
+    "chrC.pot",
+    "chrC.psq",
+    "chrC.ptf",
+    "chrC.pto"
+  ]
+}

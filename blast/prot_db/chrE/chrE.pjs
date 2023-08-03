@@ -1,0 +1,24 @@
+{
+  "version": "1.2",
+  "dbname": "chrE",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "Datacoll/chrE.txt",
+  "number-of-letters": 16686,
+  "number-of-sequences": 75,
+  "last-updated": "2023-06-08T13:04:00",
+  "number-of-volumes": 1,
+  "bytes-total": 1034344,
+  "bytes-to-cache": 17462,
+  "files": [
+    "chrE.pdb",
+    "chrE.phr",
+    "chrE.pin",
+    "chrE.pog",
+    "chrE.pos",
+    "chrE.pot",
+    "chrE.psq",
+    "chrE.ptf",
+    "chrE.pto"
+  ]
+}
